@@ -108,7 +108,7 @@ from algorithms.sorting import heap_sort_steps
 # ------ quick sort ------
 from algorithms.sorting import quick_sort_steps
 # ------ BST ------
-from algorithms.BST_trees import bst_build_steps
+from algorithms.trees import bst_build_steps
 # ------ AVL ------
 from algorithms.avl_trees import avl_build_steps
 # ------ Segment Tree ------
