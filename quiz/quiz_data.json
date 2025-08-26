@@ -1,0 +1,384 @@
+{
+  "Bubble Sort": [
+    {
+      "question": "What is the worst-case time complexity of Bubble Sort?",
+      "options": ["O(n)", "O(log n)", "O(n²)", "O(n log n)"],
+      "answer": "O(n²)"
+    },
+    {
+      "question": "What is the best-case time complexity of Bubble Sort?",
+      "options": ["O(n)", "O(log n)", "O(n²)", "O(n log n)"],
+      "answer": "O(n)"
+    },
+    {
+      "question": "Assume that we use Bubble Sort to sort n distinct elements in ascending order. When does the best case of Bubble Sort occur?",
+      "options": ["When elements are sorted in ascending order", "When elements are sorted in descending order" , "When elements are not sorted by any order" , "There is no best case for Bubble Sort. It always takes O(n*n) time"],
+      "answer": "When elements are sorted in ascending order"
+    },
+    {
+      "question": "The number of swappings needed to sort the numbers 8, 22, 7, 9, 31, 5, 13 in ascending order, using bubble sort is",
+      "options": ["11", "12", "13", "10"],
+      "answer": "12"
+    },
+    {
+      "question": "What is the maximum number of comparisons that can take place when a bubble sort algorithm is implemented?, suppose there are n elements in the array.",
+      "options": ["n^2", "n(n+1)", "n(n-1)", "(n*(n-1))/2"],
+      "answer": "(n*(n-1))/2"
+    },
+    {
+      "question": "What is the worst-case time complexity of the Bubble sort Algorithm?",
+      "options": ["O(NlogN)", "O(N)", "O(N^2)", "None"],
+      "answer": "O(N^2)"
+    },
+    {
+      "question": "Bubble Sort is an example of a ______ sorting algorithm.",
+      "options": ["Comparison - based", "Non-comparison-based", "Linear", "Exponential"],
+      "answer": "Comparison - based"
+    },
+    {
+      "question": "Bubble Sort is an example of a sorting algorithm that:",
+      "options": ["Uses divide and conquer strategy", "Uses dynamic programming", "Swaps adjacent elements directly", "Only works with integers"],
+      "answer": "Swaps adjacent elements directly"
+    },
+    {
+      "question": "Which of the following statements is true regarding Bubble Sort?",
+      "options": ["It is the fastest sorting algorithm.", "It is suitable for sorting large datasets.", "It is an in-place sorting algorithm.", "It has a time complexity of O(n log n) in all cases."],
+      "answer": "It is an in-place sorting algorithm."
+    },
+    {
+      "question": "In Bubble Sort, after each pass, the largest element among the unsorted elements 'bubbles up' to which position? You may assume that the elements are being sorted in ascending order.",
+      "options": ["First", "Last", "Middle", "Can't Say"],
+      "answer": "Last"
+    },
+    {
+      "question": "What is the main drawback of the Bubble Sort algorithm?",
+      "options": ["It is not stable.", "It is not comparison-based.", "It has a high time complexity.", "It is not adaptable to different data types."],
+      "answer": "It has a high time complexity."
+    }
+  ],
+  "Insertion Sort": [
+    {
+      "question": "What is the average case time complexity of Insertion Sort?",
+      "options": ["O(n)", "O(n²)", "O(n log n)", "O(log n)"],
+      "answer": "O(n²)"
+    },
+    {
+      "question": "Is Insertion Sort stable?",
+      "options": ["Yes", "No"],
+      "answer": "Yes"
+    },
+    {
+      "question": "The auxiliary space of insertion sort is O(1), what does O(1) mean?",
+      "options": [
+        "The memory (space) required to process the data is not constant.",
+        "It means the amount of extra memory Insertion Sort consumes doesn't depend on the input. The algorithm should use the same amount of memory for all inputs.",
+        "It takes only 1 kb of memory.",
+        "It is the speed at which the elements are traversed."
+      ],
+      "answer": "It means the amount of extra memory Insertion Sort consumes doesn't depend on the input. The algorithm should use the same amount of memory for all inputs."
+    },
+    {
+      "question": "What is the worst case time complexity of insertion sort where position of the data to be inserted is calculated using binary search?",
+      "options": ["N", "N*log(N)", "N2", "N*log(N)2"],
+      "answer": "N2"
+    },
+    {
+      "question": "In a permutation a1.....an of n distinct integers, an inversion is a pair (ai, aj) such that i < j and ai > aj. What would be the worst-case time complexity of the Insertion Sort algorithm, if the inputs are restricted to permutations of 1.....n with at most n inversions?",
+      "options": ["Θ (n2)", "Θ (n*log(n))", "Θ (n1.5)", "Θ (n)"],
+      "answer": "Θ (n*log(n))"
+    },
+    {
+      "question": "Consider an array of elements arr[5]= {5,4,3,2,1} , what are the steps of insertions done while doing insertion sort in the array?",
+      "options": [
+        "4 5 3 2 1 → 3 4 5 2 1 → 2 3 4 5 1 → 1 2 3 4 5",
+        "5 4 3 1 2 → 5 4 1 2 3 → 5 1 2 3 4 → 1 2 3 4 5",
+        "4 3 2 1 5 → 3 2 1 5 4 → 2 1 5 4 3 → 1 5 4 3 2",
+        "4 5 3 2 1 → 2 3 4 5 1 → 3 4 5 2 1 → 1 2 3 4 5"
+      ],
+      "answer": "4 5 3 2 1 → 3 4 5 2 1 → 2 3 4 5 1 → 1 2 3 4 5"
+    },
+    {
+      "question": "Which is the correct order of the following algorithms with respect to their time Complexity in the best case?",
+      "options": [
+        "Merge sort > Quick sort > Insertion sort > Selection sort",
+        "Insertion sort < Quick sort < Merge sort < Selection sort",
+        "Merge sort > Selection sort > Quick sort > Insertion sort",
+        "Merge sort > Quick sort > Selection sort > Insertion sort"
+      ],
+      "answer": "Insertion sort < Quick sort < Merge sort < Selection sort"
+    },
+    {
+      "question": "Which of the following statements is correct with respect to insertion sort?",
+      "options": [
+        "Insertion sort is stable, online but not suited well for large number of elements.",
+        "Insertion sort is unstable and online",
+        "Insertion sort is online and can be applied to more than 100 elements",
+        "Insertion sort is stable & online and can be applied to more than 100 elements"
+      ],
+      "answer": "Insertion sort is stable, online but not suited well for large number of elements."
+    },
+    {
+      "question": "Consider the array A[]= {6,4,8,1,3} apply the insertion sort to sort the array. Consider the cost associated with each sort is 25 rupees, what is the total cost of the insertion sort when element 1 reaches the first position of the array?",
+      "options": ["50", "25", "75", "100"],
+      "answer": "75"
+    },
+    {
+      "question": "What is the best sorting algorithm to use for the elements in array are more than 1 million in general?",
+      "options": ["Merge sort", "Bubble sort", "Quick sort", "Insertion sort"],
+      "answer": "Merge sort"
+    },
+    {
+      "question": "Which sorting algorithm will take least time when all elements of input array are identical? Consider typical implementations of sorting algorithms.",
+      "options": ["Insertion Sort", "Heap Sort", "Merge Sort", "Selection Sort"],
+      "answer": "Insertion Sort"
+    },
+    {
+      "question": "Which of the following is not a stable sorting algorithm in its typical implementation?",
+      "options": ["Insertion Sort", "Merge Sort", "Quick Sort", "Bubble Sort"],
+      "answer": "Quick Sort"
+    },
+    {
+      "question": "Which of the following sorting algorithms in its typical implementation gives best performance when applied on an array which is sorted or almost sorted (maximum 1 or two elements are misplaced)?",
+      "options": ["Quick Sort", "Heap Sort", "Merge Sort", "Insertion Sort"],
+      "answer": "Insertion Sort"
+    },
+    {
+      "question": "Which of the following sorting algorithms has the minimum running time complexity in the best and average case?",
+      "options": [
+        "Insertion sort, Quick sort",
+        "Quick sort, Quick sort",
+        "Quick sort, Insertion sort",
+        "Insertion sort, Insertion sort"
+      ],
+      "answer": "Insertion sort, Quick sort"
+    },
+    {
+      "question": "Which sorting algorithm will take the least time when all elements of the input array are identical? Consider typical implementations of sorting algorithms.",
+      "options": ["Insertion Sort", "Heap sort", "Merge Sort", "Selection sort"],
+      "answer": "Insertion Sort"
+    }
+  ],
+  "Quick Sort": [
+    {
+      "question": "What is the worst-case time complexity of Quick Sort?",
+      "options": ["O(n log n)", "O(n²)", "O(log n)", "O(n)"],
+      "answer": "O(n²)"
+    }
+  ],
+  "Heap Sort": [
+    {
+      "question": "What data structure is used in Heap Sort?",
+      "options": ["Stack", "Queue", "Heap", "Linked List"],
+      "answer": "Heap"
+    }
+  ],
+  "Binary Search Tree": [
+    {
+      "question": "What is the time complexity of searching for an element in a balanced Binary Search Tree (BST)?",
+      "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+      "answer": "O(log n)"
+    },
+    {
+      "question": "In a Binary Search Tree (BST), which of the following properties is true?",
+      "options": [
+        "The left subtree contains only nodes with values less than the parent node.",
+        "The right subtree contains only nodes with values greater than the parent node.",
+        "Both left and right subtrees are also binary search trees.",
+        "All of the above."
+      ],
+      "answer": "All of the above."
+    },
+    {
+      "question": "What is the time complexity of inserting an element into a balanced Binary Search Tree (BST)?",
+      "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+      "answer": "O(log n)"
+    },
+    {
+      "question": "Which traversal method of a Binary Search Tree (BST) will give you the elements in sorted order?",
+      "options": ["Pre-order", "In-order", "Post-order", "Level-order"],
+      "answer": "In-order"
+    },
+    {
+      "question": "What is the maximum number of nodes in a Binary Search Tree (BST) of height h?",
+      "options": ["2^h - 1", "2^(h+1) - 1", "h^2", "h + 1"],
+      "answer": "2^(h+1) - 1"
+    },
+    {
+      "question": "What is the minimum height of a Binary Search Tree (BST) with n nodes?",
+      "options": ["log2(n)", "n", "n/2", "sqrt(n)"],
+      "answer": "log2(n)"
+    },
+    {
+      "question": "Which of the following operations can be performed in O(h) time on a Binary Search Tree (BST), where h is the height of the tree?",
+      "options": [
+        "Insertion",
+        "Deletion",
+        "Searching",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    }
+  ],
+  "AVL Tree": [
+    {
+      "question": "What is the time complexity of inserting an element into an AVL Tree?",
+      "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+      "answer": "O(log n)"
+    },
+    {
+      "question": "Which of the following rotations is performed to balance an AVL Tree?",
+      "options": [
+        "Left Rotation",
+        "Right Rotation",
+        "Left-Right Rotation",
+        "Right-Left Rotation"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the maximum height of an AVL Tree with n nodes?",
+      "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+      "answer": "O(log n)"
+    },
+    {
+      "question": "Which of the following properties is true for an AVL Tree?",
+      "options": [
+        "It is a binary search tree.",
+        "The heights of the two child subtrees of any node differ by at most one.",
+        "Both left and right subtrees are also AVL trees.",
+        "All of the above."
+      ],
+      "answer": "All of the above."
+    }
+  ],
+  "Segment Tree": [
+    {
+      "question": "What is the time complexity of building a Segment Tree?",
+      "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+      "answer": "O(n)"
+    },
+    {
+      "question": "Which of the following operations can be performed efficiently using a Segment Tree?",
+      "options": [
+        "Range Sum Query",
+        "Point Update",
+        "Range Minimum Query",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the space complexity of a Segment Tree?",
+      "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+      "answer": "O(n)"
+    }
+  ],
+  "DFS":[
+    {
+      "question": "What is the time complexity of Depth First Search (DFS) in a graph?",
+      "options": ["O(V)", "O(E)", "O(V + E)", "O(1)"],
+      "answer": "O(V + E)"
+    },
+    {
+      "question": "Which data structure is commonly used to implement DFS?",
+      "options": ["Queue", "Stack", "Array", "Linked List"],
+      "answer": "Stack"
+    },
+    {
+      "question": "In DFS, which node is explored first?",
+      "options": ["The leftmost child", "The rightmost child", "The deepest child", "The shallowest child"],
+      "answer": "The deepest child"
+    },
+    {
+      "question": "What is a common application of DFS?",
+      "options": [
+        "Finding the shortest path",
+        "Topological sorting",
+        "Finding connected components",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    }
+  ],
+  "BFS":[
+    {
+      "question": "What is the time complexity of Breadth First Search (BFS) in a graph?",
+      "options": ["O(V)", "O(E)", "O(V + E)", "O(1)"],
+      "answer": "O(V + E)"
+    },
+    {
+      "question": "Which data structure is commonly used to implement BFS?",
+      "options": ["Queue", "Stack", "Array", "Linked List"],
+      "answer": "Queue"
+    },
+    {
+      "question": "In BFS, which node is explored first?",
+      "options": ["The leftmost child", "The rightmost child", "The deepest child", "The shallowest child"],
+      "answer": "The shallowest child"
+    },
+    {
+      "question": "What is a common application of BFS?",
+      "options": [
+        "Finding the shortest path in an unweighted graph",
+        "Topological sorting",
+        "Finding connected components",
+        "All of the above"
+      ],
+      "answer": "Finding the shortest path in an unweighted graph"
+    }
+  ],
+  "Dijkstra":[
+    {
+      "question": "What is the time complexity of Dijkstra's algorithm?",
+      "options": ["O(V)", "O(E)", "O(V + E)", "O(1)"],
+      "answer": "O(V + E)"
+    },
+    {
+      "question": "Which data structure is commonly used to implement Dijkstra's algorithm?",
+      "options": ["Queue", "Stack", "Array", "Priority Queue"],
+      "answer": "Priority Queue"
+    },
+    {
+      "question": "In Dijkstra's algorithm, which node is explored first?",
+      "options": ["The leftmost child", "The rightmost child", "The closest node", "The farthest node"],
+      "answer": "The closest node"
+    },
+    {
+      "question": "What is a common application of Dijkstra's algorithm?",
+      "options": [
+        "Finding the shortest path in a weighted graph",
+        "Topological sorting",
+        "Finding connected components",
+        "All of the above"
+      ],
+      "answer": "Finding the shortest path in a weighted graph"
+    }
+  ],
+  "Kruskal": [
+    {
+      "question": "What is the time complexity of Kruskal's algorithm?",
+      "options": ["O(V)", "O(E log E)", "O(V + E)", "O(1)"],
+      "answer": "O(E log E)"
+    },
+    {
+      "question": "Which data structure is commonly used to implement Kruskal's algorithm?",
+      "options": ["Queue", "Stack", "Array", "Disjoint Set (Union-Find)"],
+      "answer": "Disjoint Set (Union-Find)"
+    },
+    {
+      "question": "In Kruskal's algorithm, which edge is considered first?",
+      "options": ["The leftmost edge", "The rightmost edge", "The smallest edge", "The largest edge"],
+      "answer": "The smallest edge"
+    },
+    {
+      "question": "What is a common application of Kruskal's algorithm?",
+      "options": [
+        "Finding the shortest path in a weighted graph",
+        "Minimum Spanning Tree",
+        "Finding connected components",
+        "All of the above"
+      ],
+      "answer": "Minimum Spanning Tree"
+    }
+  ]
+}
